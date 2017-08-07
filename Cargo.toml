@@ -3,8 +3,12 @@ name = "tgaimage-sys"
 version = "0.1.0"
 build = "build.rs"
 authors = ["Enrico Lumetti <enrico.lumetti@gmail.com>"]
+repository = "https://github.com/doppioandante/tgaimage-rust-sys.git"
+license = "ISC"
+keywords = ["tga", "image"]
+description = "rust-bindgen generated bindings for C++ tgaimage library"
 
 [dependencies]
 
 [build-dependencies]
-bindgen = "0.26.3"
+bindgen = "0.26"
