@@ -1,0 +1,4 @@
+The original files from the C++ tgaimage library are by Dmitry V. Sokolov and they are provided in the tga folder along with the original LICENSE.
+Modifications to the original file are the following:
+ - left only declarations in the header file and moved the implementations to the cpp
+ - added const qualifier on some methods
