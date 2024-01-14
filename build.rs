@@ -30,8 +30,8 @@ fn main() {
         // The input header we would like to generate
         // bindings for.
         .header("tga/tgaimage.hpp")
-        .whitelisted_type("TGAImage")
-        .whitelisted_type("TGAColor")
+        .allowlist_type("TGAImage")
+        .allowlist_type("TGAColor")
         //.conservative_inline_namespaces() // see issue #789
         // Finish the builder and generate the bindings.
         .generate()
