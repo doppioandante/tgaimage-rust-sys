@@ -11,4 +11,4 @@ description = "rust-bindgen generated bindings for C++ tgaimage library"
 [dependencies]
 
 [build-dependencies]
-bindgen = "0.26"
+bindgen = "0.69"
